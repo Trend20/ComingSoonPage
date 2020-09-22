@@ -1,5 +1,108 @@
+:root {}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    overflow-x: hidden;
+    height: auto;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 50%;
+    margin: 50px 0px 0px 100px;
+}
+
+.logo {
+    margin-bottom: 100px;
+}
+
+.logo>img {
+    max-width: 20%;
+    height: auto;
+}
+
+.content-text {
+    height: auto;
+    width: 80%;
+}
+
+.content-text>h1 {
+    text-transform: uppercase;
+    width: 50%;
+    height: auto;
+    letter-spacing: 10px;
+    line-height: 1.2;
+    font-size: 2.5rem;
+    font-weight: 100;
+    color: hsl(0, 25%, 51%);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1>span {
+    font-weight: 900;
+    font-weight: 3.5rem;
+    color: #222;
+}
+
+.content-text>p {
+    margin-top: 30px;
+    font-weight: 300;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 1.5;
+    line-height: 1.8;
+    width: 82%;
+
+}
+
+form {
+    width: 100%;
+    margin-top: 30px;
+    position: relative;
+    display: flex;
+}
+
+input {
+    height: 50px;
+    width: 70%;
+    position: relative;
+    outline: none;
+    border: 1px solid hsl(0, 25%, 51%);
+    padding: 10px;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+button {
+    width: 15%;
+    height: 50px;
+    align-items: center;
+    background: linear-gradient(to right, rgb(230, 174, 174), rgb(233, 132, 132));
+    border: none;
+    border-radius: 50px;
+    position: absolute;
+    right: 30%;
+    cursor: pointer;
+    outline: none;
+}
+
+.image {
+    width: 40%;
+}
+
+.image>img {
+    max-width: 100%;
 }
