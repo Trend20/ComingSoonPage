@@ -106,3 +106,368 @@ button {
 .image>img {
     max-width: 100%;
 }
+
+@media(max-width:320px) {
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        overflow-x: hidden;
+        height: auto;
+        margin-left: 0px;
+    }
+
+    .main-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+
+    .logo {
+        margin: 10px;
+        display: none;
+    }
+
+    .content-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
+        height: auto;
+        width: 100%;
+    }
+
+    .content-text>h1 {
+        text-transform: uppercase;
+        height: auto;
+        letter-spacing: 10px;
+        line-height: 1.2;
+        font-size: 2.5rem;
+        font-weight: 100;
+        color: hsl(0, 25%, 51%);
+        font-family: 'Josefin Sans', sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-right: 100px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    h1>span {
+        font-weight: 900;
+        font-weight: 3.5rem;
+        color: #222;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .content-text>p {
+        margin-top: 30px;
+        font-weight: 300;
+        font-family: 'Josefin Sans', sans-serif;
+        letter-spacing: 1.5;
+        line-height: 1.8;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 100px;
+
+    }
+
+    form {
+        width: 100%;
+        margin-top: 30px;
+        position: relative;
+        display: flex;
+        margin-right: 50px;
+        margin-bottom: 100px;
+    }
+
+    input {
+        height: 50px;
+        width: 80%;
+        position: relative;
+        outline: none;
+        border: 1px solid hsl(0, 25%, 51%);
+        padding: 10px;
+        border-radius: 50px;
+        font-weight: 600;
+    }
+
+    button {
+        width: 20%;
+        height: 50px;
+        align-items: center;
+        background: linear-gradient(to right, rgb(230, 174, 174), rgb(233, 132, 132));
+        border: none;
+        border-radius: 50px;
+        position: absolute;
+        right: 15%;
+        cursor: pointer;
+        outline: none;
+    }
+
+    .image {
+        width: 100%;
+    }
+
+    .image>img {
+        max-width: 100%;
+    }
+
+}
+
+@media(min-width:320px) and (max-width:480px) {
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        overflow-x: hidden;
+        height: auto;
+        margin-left: 0px;
+    }
+
+    .main-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+
+    .logo {
+        margin: 10px;
+        display: none;
+    }
+
+    .content-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
+        height: auto;
+        width: 100%;
+    }
+
+    .content-text>h1 {
+        text-transform: uppercase;
+        height: auto;
+        letter-spacing: 10px;
+        line-height: 1.2;
+        font-size: 2.5rem;
+        font-weight: 100;
+        color: hsl(0, 25%, 51%);
+        font-family: 'Josefin Sans', sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-right: 100px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    h1>span {
+        font-weight: 900;
+        font-weight: 3.5rem;
+        color: #222;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .content-text>p {
+        margin-top: 30px;
+        font-weight: 300;
+        font-family: 'Josefin Sans', sans-serif;
+        letter-spacing: 1.5;
+        line-height: 1.8;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 100px;
+
+    }
+
+    form {
+        width: 100%;
+        margin-top: 30px;
+        position: relative;
+        display: flex;
+        margin-right: 50px;
+        margin-bottom: 100px;
+    }
+
+    input {
+        height: 50px;
+        width: 80%;
+        position: relative;
+        outline: none;
+        border: 1px solid hsl(0, 25%, 51%);
+        padding: 10px;
+        border-radius: 50px;
+        font-weight: 600;
+    }
+
+    button {
+        width: 20%;
+        height: 50px;
+        align-items: center;
+        background: linear-gradient(to right, rgb(230, 174, 174), rgb(233, 132, 132));
+        border: none;
+        border-radius: 50px;
+        position: absolute;
+        right: 15%;
+        cursor: pointer;
+        outline: none;
+    }
+
+    .image {
+        width: 100%;
+    }
+
+    .image>img {
+        max-width: 100%;
+    }
+
+}
+
+@media(min-width:481px) and (max-width:768px) {
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        overflow-x: hidden;
+        height: auto;
+        margin-left: 0px;
+    }
+
+    .main-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+
+    .logo {
+        margin: 10px;
+        display: none;
+    }
+
+    .content-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
+        height: auto;
+        width: 100%;
+    }
+
+    .content-text>h1 {
+        text-transform: uppercase;
+        height: auto;
+        letter-spacing: 10px;
+        line-height: 1.2;
+        font-size: 2.5rem;
+        font-weight: 100;
+        color: hsl(0, 25%, 51%);
+        font-family: 'Josefin Sans', sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-right: 100px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    h1>span {
+        font-weight: 900;
+        font-weight: 3.5rem;
+        color: #222;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .content-text>p {
+        margin-top: 30px;
+        font-weight: 300;
+        font-family: 'Josefin Sans', sans-serif;
+        letter-spacing: 1.5;
+        line-height: 1.8;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 100px;
+
+    }
+
+    form {
+        width: 100%;
+        margin-top: 30px;
+        position: relative;
+        display: flex;
+        margin-right: 50px;
+        margin-bottom: 100px;
+    }
+
+    input {
+        height: 50px;
+        width: 80%;
+        position: relative;
+        outline: none;
+        border: 1px solid hsl(0, 25%, 51%);
+        padding: 10px;
+        border-radius: 50px;
+        font-weight: 600;
+    }
+
+    button {
+        width: 20%;
+        height: 50px;
+        align-items: center;
+        background: linear-gradient(to right, rgb(230, 174, 174), rgb(233, 132, 132));
+        border: none;
+        border-radius: 50px;
+        position: absolute;
+        right: 15%;
+        cursor: pointer;
+        outline: none;
+    }
+
+    .image {
+        width: 100%;
+    }
+
+    .image>img {
+        max-width: 100%;
+    }
+}
